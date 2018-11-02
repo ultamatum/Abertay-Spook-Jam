@@ -33,6 +33,10 @@ namespace Valve.VR
         
         public static SteamVR_Action_Single __actions_default_in_Squeeze;
         
+        public static SteamVR_Action_Vector2 __actions_default_in_Move;
+        
+        public static SteamVR_Action_Boolean __actions_default_in_MoveActive;
+        
         public static SteamVR_Action_Vibration __actions_default_out_Haptic;
         
         public static void Dynamic_InitializeActions()
@@ -45,6 +49,8 @@ namespace Valve.VR
             SteamVR_Input.__actions_default_in_SkeletonLeftHand.Initialize();
             SteamVR_Input.__actions_default_in_SkeletonRightHand.Initialize();
             SteamVR_Input.__actions_default_in_Squeeze.Initialize();
+            SteamVR_Input.__actions_default_in_Move.Initialize();
+            SteamVR_Input.__actions_default_in_MoveActive.Initialize();
             SteamVR_Input.__actions_default_out_Haptic.Initialize();
         }
         
@@ -58,6 +64,8 @@ namespace Valve.VR
             Valve.VR.SteamVR_Input.__actions_default_in_SkeletonLeftHand = ((SteamVR_Action_Skeleton)(SteamVR_Input_References.GetAction("__actions_default_in_SkeletonLeftHand")));
             Valve.VR.SteamVR_Input.__actions_default_in_SkeletonRightHand = ((SteamVR_Action_Skeleton)(SteamVR_Input_References.GetAction("__actions_default_in_SkeletonRightHand")));
             Valve.VR.SteamVR_Input.__actions_default_in_Squeeze = ((SteamVR_Action_Single)(SteamVR_Input_References.GetAction("__actions_default_in_Squeeze")));
+            Valve.VR.SteamVR_Input.__actions_default_in_Move = ((SteamVR_Action_Vector2)(SteamVR_Input_References.GetAction("__actions_default_in_Move")));
+            Valve.VR.SteamVR_Input.__actions_default_in_MoveActive = ((SteamVR_Action_Boolean)(SteamVR_Input_References.GetAction("__actions_default_in_MoveActive")));
             Valve.VR.SteamVR_Input.__actions_default_out_Haptic = ((SteamVR_Action_Vibration)(SteamVR_Input_References.GetAction("__actions_default_out_Haptic")));
             Valve.VR.SteamVR_Input.actions = new Valve.VR.SteamVR_Action[]
             {
@@ -69,6 +77,8 @@ namespace Valve.VR
                     Valve.VR.SteamVR_Input.__actions_default_in_SkeletonLeftHand,
                     Valve.VR.SteamVR_Input.__actions_default_in_SkeletonRightHand,
                     Valve.VR.SteamVR_Input.__actions_default_in_Squeeze,
+                    Valve.VR.SteamVR_Input.__actions_default_in_Move,
+                    Valve.VR.SteamVR_Input.__actions_default_in_MoveActive,
                     Valve.VR.SteamVR_Input.__actions_default_out_Haptic};
             Valve.VR.SteamVR_Input.actionsIn = new Valve.VR.SteamVR_Action_In[]
             {
@@ -79,7 +89,9 @@ namespace Valve.VR
                     Valve.VR.SteamVR_Input.__actions_default_in_Pose,
                     Valve.VR.SteamVR_Input.__actions_default_in_SkeletonLeftHand,
                     Valve.VR.SteamVR_Input.__actions_default_in_SkeletonRightHand,
-                    Valve.VR.SteamVR_Input.__actions_default_in_Squeeze};
+                    Valve.VR.SteamVR_Input.__actions_default_in_Squeeze,
+                    Valve.VR.SteamVR_Input.__actions_default_in_Move,
+                    Valve.VR.SteamVR_Input.__actions_default_in_MoveActive};
             Valve.VR.SteamVR_Input.actionsOut = new Valve.VR.SteamVR_Action_Out[]
             {
                     Valve.VR.SteamVR_Input.__actions_default_out_Haptic};
@@ -94,11 +106,14 @@ namespace Valve.VR
                     Valve.VR.SteamVR_Input.__actions_default_in_InteractUI,
                     Valve.VR.SteamVR_Input.__actions_default_in_Teleport,
                     Valve.VR.SteamVR_Input.__actions_default_in_GrabPinch,
-                    Valve.VR.SteamVR_Input.__actions_default_in_GrabGrip};
+                    Valve.VR.SteamVR_Input.__actions_default_in_GrabGrip,
+                    Valve.VR.SteamVR_Input.__actions_default_in_MoveActive};
             Valve.VR.SteamVR_Input.actionsSingle = new Valve.VR.SteamVR_Action_Single[]
             {
                     Valve.VR.SteamVR_Input.__actions_default_in_Squeeze};
-            Valve.VR.SteamVR_Input.actionsVector2 = new Valve.VR.SteamVR_Action_Vector2[0];
+            Valve.VR.SteamVR_Input.actionsVector2 = new Valve.VR.SteamVR_Action_Vector2[]
+            {
+                    Valve.VR.SteamVR_Input.__actions_default_in_Move};
             Valve.VR.SteamVR_Input.actionsVector3 = new Valve.VR.SteamVR_Action_Vector3[0];
             Valve.VR.SteamVR_Input.actionsSkeleton = new Valve.VR.SteamVR_Action_Skeleton[]
             {
@@ -110,7 +125,9 @@ namespace Valve.VR
                     Valve.VR.SteamVR_Input.__actions_default_in_Teleport,
                     Valve.VR.SteamVR_Input.__actions_default_in_GrabPinch,
                     Valve.VR.SteamVR_Input.__actions_default_in_GrabGrip,
-                    Valve.VR.SteamVR_Input.__actions_default_in_Squeeze};
+                    Valve.VR.SteamVR_Input.__actions_default_in_Squeeze,
+                    Valve.VR.SteamVR_Input.__actions_default_in_Move,
+                    Valve.VR.SteamVR_Input.__actions_default_in_MoveActive};
         }
     }
 }
