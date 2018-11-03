@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - TeleportIgnore
   - ExcludeTeleport
+=======
+>>>>>>> 039f9de460fcf4ed7515611e2f226dc2a5507cd8
   - Wall
   layers:
   - Default
