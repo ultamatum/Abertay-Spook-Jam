@@ -12,23 +12,40 @@ public class VRTouchPadMovement : MonoBehaviour
     public Hand hand;
     public SteamVR_Action_Boolean touch;
     public SteamVR_Action_Vector2 move;
+    public Collider colliderObj;
     public float movementSpeed = 5;
+    
+    Vector3 prevPosition;
+    GameObject[] walls;
 
-	void Start ()
+    void Start ()
     {
-        if (hand == null)
-            hand = this.GetComponent<Hand>();
+        /*
+        if (capCollider == null)
+            capCollider = colliderObj.GetComponent<CapsuleCollider>();*/
+
+        if (walls == null)
+            walls = GameObject.FindGameObjectsWithTag("Wall");
 	}
 	
 	void Update ()
     {
+
         if(touch.GetState(hand.handType))
         {
-            rig.position += (((transform.right * move.GetAxis(hand.handType).x + transform.forward * move.GetAxis(hand.handType).y) * movementSpeed) * Time.deltaTime);
-            rig.position = new Vector3(rig.position.x, 0, rig.position.z);
-            Debug.Log(rig.position);
-            Debug.Log(move.GetAxis(hand.handType));
-            Debug.Log(touch.GetStateDown(hand.handType));
+            Vector3 newPos = (((transform.right * move.GetAxis(hand.handType).x + transform.forward * move.GetAxis(hand.handType).y) * movementSpeed) * Time.deltaTime);
+            foreach (GameObject wall in walls)
+            {
+                if (wall.GetComponent<MeshCollider>().bounds.Intersects(colliderObj.bounds))
+                {
+                    rig.position = prevPosition;
+                    Debug.Log("COLLIDED: " + colliderObj + " Hand: Right");
+                    return;
+                }
+            }
+            rig.position += new Vector3(newPos.x, 0, newPos.z);
         }
+
+        prevPosition = rig.position;
     }
 }
