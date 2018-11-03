@@ -113,8 +113,8 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1001 &1174225887
+<<<<<<< HEAD
 --- !u!4 &478887440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5352a26ab0ba9c349b6cb33fa3c741df,
@@ -323,8 +323,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400304, guid: 7ac9a48b06a347549941e39ac7e2fbe8, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 1
+<<<<<<< HEAD
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -449,10 +449,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1722844486
+<<<<<<< HEAD
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1820430604
@@ -593,6 +593,8 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 958d36178d9013b4687ad92b629296ec, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> parent of 509fa7b... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
   m_IsPrefabAsset: 0

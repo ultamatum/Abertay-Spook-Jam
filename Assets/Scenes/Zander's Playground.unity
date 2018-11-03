@@ -265,14 +265,15 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   inputDeadzone: 0.1
   forwardVel: 12
-<<<<<<< HEAD
   horizontalVel: 12
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   rigidbody: {fileID: 0}
   forwardInput: 0
   horizontalInput: 0
 =======
->>>>>>> parent of 509fa7b... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
+  rotateVel: 100
+>>>>>>> parent of 5ced8c8... Trying to fix merge issues
+>>>>>>> 23ef40af9cb90db20cb69166289a82f7b18ddf1f
 --- !u!1 &371522039
 GameObject:
   m_ObjectHideFlags: 0
