@@ -11,16 +11,13 @@ public class characterController : MonoBehaviour {
     public LayerMask groundLayers;
 
     public CapsuleCollider col;
-    //public SphereCollider col;
 
-    // Use this for initialization
     void Start() {
         Cursor.lockState = CursorLockMode.Locked;
         rb = GetComponent<Rigidbody>();
         col = GetComponent<CapsuleCollider>();
     }
-
-    // Update is called once per frame
+    
     void Update() {
         float translation = Input.GetAxis("Vertical") * speed;
         float strafe = Input.GetAxis("Horizontal") * speed;
