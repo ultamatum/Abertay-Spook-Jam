@@ -232,6 +232,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &260963217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1765986875778308, guid: 26e14d0834cb3004f94afb41a8bde080,
@@ -270,6 +271,8 @@ MonoBehaviour:
   rigidbody: {fileID: 0}
   forwardInput: 0
   horizontalInput: 0
+=======
+>>>>>>> parent of 509fa7b... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 --- !u!1 &371522039
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,28 +825,6 @@ Prefab:
         type: 2}
       propertyPath: m_TargetDisplay
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114311870773598914, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: renderModelPrefab
-      value: 
-      objectReference: {fileID: 1000012617731570, guid: d07386f0ec952ec409dc7753bcf5746b,
-        type: 2}
-    - target: {fileID: 114602483928916792, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: renderModelPrefab
-      value: 
-      objectReference: {fileID: 1000011547835092, guid: 8ade79fed86bbd141926d1cd94c98457,
-        type: 2}
-    - target: {fileID: 114125728237585240, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: movementSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114198738596993470, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: movementSpeed
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
