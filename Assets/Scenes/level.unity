@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -481,6 +481,11 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!4 &422530686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400010, guid: 849e31d2cc866a64b9237f246441dad2,
+    type: 3}
+  m_PrefabInternal: {fileID: 850493040}
 --- !u!1 &431204677 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100348, guid: 52119900be1d7a9448ce4fbf63c3fb1e,
@@ -788,7 +793,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1148850618}
     m_Modifications:
     - target: {fileID: 400010, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -804,11 +809,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
       propertyPath: m_LocalRotation.z
@@ -899,7 +904,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 136943979802502734, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &932511450
@@ -1168,6 +1174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2024634430}
+  - {fileID: 422530686}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

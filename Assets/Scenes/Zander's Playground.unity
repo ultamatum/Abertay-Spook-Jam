@@ -313,11 +313,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371522039}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &880764389 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1696280997117368, guid: c04ece6a438b7304196631bf599bca5a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1842455181}
 --- !u!1 &914118669
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,26 +831,6 @@ Prefab:
     - target: {fileID: 1664686680366698, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
       propertyPath: m_Name
       value: VRPlayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 114198738596993470, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: colliderObj
-      value: 
-      objectReference: {fileID: 880764389}
-    - target: {fileID: 114125728237585240, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: colliderObj
-      value: 
-      objectReference: {fileID: 880764389}
-    - target: {fileID: 114198738596993470, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: movementSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114125728237585240, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: movementSpeed
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
