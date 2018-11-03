@@ -1,60 +1,44 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
-{
-    public float inputDeadzone = 0.1f;
-    public float forwardVel = 12;
-    public float horizontalVel = 12;
+public class characterController : MonoBehaviour {
 
-    Quaternion targetRotation;
-    Rigidbody rigidbody;
-    float forwardInput, horizontalInput;
+    public float speed = 10.0f;
+    public float jumpForce = 7.0f;
 
-    public Quaternion TargetRotation
-    {
-        get { return targetRotation; }
+    private Rigidbody rb;
+
+    public LayerMask groundLayers;
+
+    public CapsuleCollider col;
+    //public SphereCollider col;
+
+    // Use this for initialization
+    void Start() {
+        Cursor.lockState = CursorLockMode.Locked;
+        rb = GetComponent<Rigidbody>();
+        col = GetComponent<CapsuleCollider>();
     }
 
-    void Start()
-    {
-        targetRotation = transform.rotation;
-        if (GetComponent<Rigidbody>())
-            rigidbody = GetComponent<Rigidbody>();
-        else
-            Debug.LogError("Character doesn't have a rigidbody");
+    // Update is called once per frame
+    void Update() {
+        float translation = Input.GetAxis("Vertical") * speed;
+        float strafe = Input.GetAxis("Horizontal") * speed;
+        translation *= Time.deltaTime;
+        strafe *= Time.deltaTime;
 
-        forwardInput = horizontalInput = 0;
-    }
+        transform.Translate(strafe, 0, translation);
 
-    void GetInput()
-    {
-        forwardInput = Input.GetAxis("Vertical");
-        horizontalInput = Input.GetAxis("Horizontal");
-    }
-
-    void Update()
-    {
-        GetInput();
-    }
-
-    void FixedUpdate()
-    {
-        Run();
-    }
-    
-    void Run()
-    {
-        if (Mathf.Abs(forwardInput) > inputDeadzone || Mathf.Abs(horizontalInput) > inputDeadzone)
+        if (Input.GetKeyDown("escape"))
+            Cursor.lockState = CursorLockMode.None;
+        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
-            rigidbody.velocity = (transform.forward * forwardInput * forwardVel) + (transform.right * horizontalInput * horizontalVel);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
-        else
-        {
-            rigidbody.velocity = Vector3.zero;
-        }
+    }
 
-        
+    private bool IsGrounded()
+    {
+        return Physics.CheckCapsule(col.bounds.center, new Vector3(col.bounds.center.x, col.bounds.min.y, col.bounds.center.z), col.radius * 0.9f, groundLayers);
     }
 }
