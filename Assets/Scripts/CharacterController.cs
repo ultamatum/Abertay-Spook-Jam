@@ -6,11 +6,11 @@ public class CharacterController : MonoBehaviour
 {
     public float inputDeadzone = 0.1f;
     public float forwardVel = 12;
-    public float rotateVel = 100;
+    public float horizontalVel = 12;
 
     Quaternion targetRotation;
     Rigidbody rigidbody;
-    float forwardInput, turnInput;
+    float forwardInput, horizontalInput;
 
     public Quaternion TargetRotation
     {
@@ -25,19 +25,18 @@ public class CharacterController : MonoBehaviour
         else
             Debug.LogError("Character doesn't have a rigidbody");
 
-        forwardInput = turnInput = 0;
+        forwardInput = horizontalInput = 0;
     }
 
     void GetInput()
     {
         forwardInput = Input.GetAxis("Vertical");
-        turnInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxis("Horizontal");
     }
 
     void Update()
     {
         GetInput();
-        Turn();
     }
 
     void FixedUpdate()
@@ -47,17 +46,15 @@ public class CharacterController : MonoBehaviour
     
     void Run()
     {
-        if (Mathf.Abs(forwardInput) > inputDeadzone)
+        if (Mathf.Abs(forwardInput) > inputDeadzone || Mathf.Abs(horizontalInput) > inputDeadzone)
         {
-            rigidbody
-        } else
+            rigidbody.velocity = (transform.forward * forwardInput * forwardVel) + (transform.right * horizontalInput * horizontalVel);
+        }
+        else
         {
             rigidbody.velocity = Vector3.zero;
         }
-    }
 
-    void Turn()
-    {
-
+        
     }
 }
