@@ -74,6 +74,7 @@ namespace Valve.VR.InteractionSystem
             }
 
             GameObject arcObjectsParent = new GameObject("ArcObjects");
+            arcObjectsParent.layer = 9;
             arcObjectsTransfrom = arcObjectsParent.transform;
             arcObjectsTransfrom.SetParent(this.transform);
 
@@ -82,10 +83,11 @@ namespace Valve.VR.InteractionSystem
             for (int i = 0; i < segmentCount; ++i)
             {
                 GameObject newObject = new GameObject("LineRenderer_" + i);
+                newObject.layer = 9;
                 newObject.transform.SetParent(arcObjectsTransfrom);
 
                 lineRenderers[i] = newObject.AddComponent<LineRenderer>();
-
+                
                 lineRenderers[i].receiveShadows = false;
                 lineRenderers[i].reflectionProbeUsage = UnityEngine.Rendering.ReflectionProbeUsage.Off;
                 lineRenderers[i].lightProbeUsage = UnityEngine.Rendering.LightProbeUsage.Off;
