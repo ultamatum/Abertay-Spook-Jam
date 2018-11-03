@@ -2381,7 +2381,8 @@ MonoBehaviour:
   hand: {fileID: 114602483928916792}
   touch: {fileID: 11400000, guid: 66b7f73cb30b87d4b9d2b6048a680520, type: 2}
   move: {fileID: 11400000, guid: d1e44875153da3348b3d084b089ddce1, type: 2}
-  movementSpeed: 0
+  colliderObj: {fileID: 1696280997117368}
+  movementSpeed: 3
 --- !u!114 &114143398815664688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2442,7 +2443,8 @@ MonoBehaviour:
   hand: {fileID: 114311870773598914}
   touch: {fileID: 11400000, guid: 66b7f73cb30b87d4b9d2b6048a680520, type: 2}
   move: {fileID: 11400000, guid: d1e44875153da3348b3d084b089ddce1, type: 2}
-  movementSpeed: 10
+  colliderObj: {fileID: 1696280997117368}
+  movementSpeed: 3
 --- !u!114 &114226886302905458
 MonoBehaviour:
   m_ObjectHideFlags: 1
