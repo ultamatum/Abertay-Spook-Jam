@@ -113,24 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &12748158 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1595847432623588, guid: c04ece6a438b7304196631bf599bca5a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1842455181}
---- !u!136 &12748161
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 12748158}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &24851820
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,26 +746,6 @@ Prefab:
     - target: {fileID: 1664686680366698, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
       propertyPath: m_Name
       value: VRPlayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 20188852231067748, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 20188852231067748, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: m_projectionMatrixMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20188852231067748, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: field of view
-      value: 26.991467
-      objectReference: {fileID: 0}
-    - target: {fileID: 20188852231067748, guid: c04ece6a438b7304196631bf599bca5a,
-        type: 2}
-      propertyPath: m_TargetDisplay
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c04ece6a438b7304196631bf599bca5a, type: 2}
