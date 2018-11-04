@@ -372,15 +372,6 @@ Prefab:
       value: 90
       objectReference: {fileID: 0}
 <<<<<<< HEAD
-    - target: {fileID: 2300000, guid: 745172b0c2e380e44b536853494e6184, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0a67e649eedbf52468255a6c9e36c9a7, type: 2}
-    - target: {fileID: 100072, guid: 745172b0c2e380e44b536853494e6184, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 745172b0c2e380e44b536853494e6184, type: 3}
   m_IsPrefabAsset: 0
@@ -2408,10 +2399,6 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a797ec175aa810941848af83cb96a241, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
   m_IsPrefabAsset: 0
@@ -2474,18 +2461,6 @@ Prefab:
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
-    - target: {fileID: 2300004, guid: ddcc6ab983a52de43b9f90a6a584df96, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3e43545cb90675144bbd19f1de0a8866, type: 2}
-    - target: {fileID: 2300000, guid: ddcc6ab983a52de43b9f90a6a584df96, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300002, guid: ddcc6ab983a52de43b9f90a6a584df96, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddcc6ab983a52de43b9f90a6a584df96, type: 3}
   m_IsPrefabAsset: 0
@@ -2971,177 +2946,7 @@ Transform:
   m_Father: {fileID: 338818827}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &180487545
-=======
---- !u!1001 &208740699
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1533090414}
-    m_Modifications:
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -29.85292
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 25.584871
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 77.73589
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 8.409604
-      objectReference: {fileID: 0}
-    - target: {fileID: 100574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_Name
-      value: wallv2f2 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4949d60194cf0ad49bf0d700f91d7adf, type: 2}
-    - target: {fileID: 100568, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09f89d642c7ce984a86e89a3418d83a2, type: 3}
-  m_IsPrefabAsset: 0
---- !u!4 &208740700 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400574, guid: 09f89d642c7ce984a86e89a3418d83a2,
-    type: 3}
-  m_PrefabInternal: {fileID: 208740699}
---- !u!1 &208740701 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100568, guid: 09f89d642c7ce984a86e89a3418d83a2,
-    type: 3}
-  m_PrefabInternal: {fileID: 208740699}
---- !u!65 &208740702
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208740701}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.010000003, y: 0.50648177, z: 0.13091719}
-  m_Center: {x: -0.00000011920929, y: 0, z: 0.42317677}
---- !u!65 &208740703
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208740701}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.010000003, y: 0.50648177, z: 0.6774089}
-  m_Center: {x: -0.00000011920929, y: 0, z: -0.14993049}
---- !u!1001 &211513639
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1148850618}
-    m_Modifications:
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 13.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 400018, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-  m_IsPrefabAsset: 0
---- !u!1 &211513640 stripped
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100104, guid: 958d36178d9013b4687ad92b629296ec,
@@ -3699,18 +3504,6 @@ Prefab:
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
-    - target: {fileID: 2300004, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3e43545cb90675144bbd19f1de0a8866, type: 2}
-    - target: {fileID: 2300002, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300000, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4673d58585b1ed499ae0bd9245a6e80, type: 3}
   m_IsPrefabAsset: 0
@@ -3977,54 +3770,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2300006, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-<<<<<<< HEAD
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300020, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300008, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300022, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300026, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300016, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300018, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300004, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300014, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300002, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-=======
-      objectReference: {fileID: 2100000, guid: 2d4adc34524ee694bbac122c0cdf8783, type: 2}
-    - target: {fileID: 100058, guid: 6a2d155f594bfea4e8e3a641323a2cac, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
   m_IsPrefabAsset: 0
@@ -4201,7 +3946,6 @@ GameObject:
 --- !u!4 &225219798
 Transform:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 400116, guid: 958d36178d9013b4687ad92b629296ec,
     type: 3}
   m_PrefabInternal: {fileID: 511361578}
@@ -4235,72 +3979,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &226889426
-=======
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1533090414}
-    m_Modifications:
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -24.621922
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 35.65487
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 87.745895
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_RootOrder
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_Name
-      value: kid bed (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 100030, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-  m_IsPrefabAsset: 0
---- !u!4 &313986291 stripped
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400122, guid: 958d36178d9013b4687ad92b629296ec,
@@ -4415,7 +4093,6 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 240125797}
   m_Layer: 0
   m_Name: pasted__pasted__pCube19
@@ -4448,144 +4125,106 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241155440}
-=======
-  - component: {fileID: 318584240}
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
   m_Layer: 0
-  m_Name: chaIR4:group4
+  m_Name: node_id5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &318584240
+--- !u!4 &241155440
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 400168, guid: 63b4ecca0206198418c4d0bd87b165eb,
+  m_CorrespondingSourceObject: {fileID: 400142, guid: 958d36178d9013b4687ad92b629296ec,
     type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 318584239}
+  m_PrefabInternal: {fileID: 420528640}
+  m_GameObject: {fileID: 241155439}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07851148, y: 0.10908197, z: -0.13137136}
+  m_LocalPosition: {x: -0, y: -0.07622308, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 28191887}
-  m_Father: {fileID: 495592136}
-  m_RootOrder: 4
+  - {fileID: 1797712650}
+  m_Father: {fileID: 860650801}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &329622620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 100122, guid: 958d36178d9013b4687ad92b629296ec,
-    type: 3}
-  m_PrefabInternal: {fileID: 1133404065}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 329622621}
-  m_Layer: 0
-  m_Name: node_id34
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &329622621
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 400122, guid: 958d36178d9013b4687ad92b629296ec,
-    type: 3}
-  m_PrefabInternal: {fileID: 1133404065}
-  m_GameObject: {fileID: 329622620}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22161844, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 369909516}
-  m_Father: {fileID: 1232771595}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &335583346
+--- !u!1001 &242312624
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1533090414}
+    m_TransformParent: {fileID: 1148850618}
     m_Modifications:
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.11692
+      value: -7.02236
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.69687
+      value: 0.044406097
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 86.605896
+      value: 9.526657
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8535458
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5210179
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 13
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 6.7125497
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 6.7125497
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 6.7125497
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 117.199005
+    - target: {fileID: 400018, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002
       objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Name
-      value: kids toybox (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 100020, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+    - target: {fileID: 100018, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
   m_IsPrefabAsset: 0
---- !u!4 &335583347 stripped
+--- !u!4 &242312625 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400006, guid: 5f75e99288061774bb3516227436f8ee,
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0bb4680678fe88545a1a0a8845fe3bb1,
     type: 3}
-  m_PrefabInternal: {fileID: 335583346}
---- !u!1 &335583348 stripped
+  m_PrefabInternal: {fileID: 242312624}
+--- !u!1 &242312626 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100020, guid: 5f75e99288061774bb3516227436f8ee,
+  m_CorrespondingSourceObject: {fileID: 100018, guid: 0bb4680678fe88545a1a0a8845fe3bb1,
     type: 3}
-  m_PrefabInternal: {fileID: 335583346}
---- !u!64 &335583349
+  m_PrefabInternal: {fileID: 242312624}
+--- !u!64 &242312627
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 335583348}
+  m_GameObject: {fileID: 242312626}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -4593,27 +4232,26 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300008, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
---- !u!1 &338818826
+  m_Mesh: {fileID: 4300000, guid: 0bb4680678fe88545a1a0a8845fe3bb1, type: 3}
+--- !u!1 &244343686
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 100332, guid: 63b4ecca0206198418c4d0bd87b165eb,
+  m_CorrespondingSourceObject: {fileID: 100086, guid: 958d36178d9013b4687ad92b629296ec,
     type: 3}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 1573107818}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 338818827}
+  - component: {fileID: 244343687}
   m_Layer: 0
-  m_Name: Second Floor
+  m_Name: node_id15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &338818827
+--- !u!4 &244343687
 Transform:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 400086, guid: 958d36178d9013b4687ad92b629296ec,
     type: 3}
   m_PrefabInternal: {fileID: 1573107818}
@@ -5314,10 +4952,6 @@ Prefab:
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 86f46c73fcd0a564eaebfab46bbf8371, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0a67e649eedbf52468255a6c9e36c9a7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86f46c73fcd0a564eaebfab46bbf8371, type: 3}
   m_IsPrefabAsset: 0
@@ -5399,10 +5033,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a797ec175aa810941848af83cb96a241, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
   m_IsPrefabAsset: 0
@@ -5589,14 +5219,6 @@ Prefab:
       propertyPath: m_Name
       value: kids toybox (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2300006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300008, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
   m_IsPrefabAsset: 0
@@ -6533,46 +6155,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2300020, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300022, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300008, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300006, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300026, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300014, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300016, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300002, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300018, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
-    - target: {fileID: 2300004, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b70eb44fbb7bbde42ad31624c8846b73, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
   m_IsPrefabAsset: 0
@@ -6690,14 +6272,6 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0.1865
       objectReference: {fileID: 0}
-    - target: {fileID: 2300006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300008, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
   m_IsPrefabAsset: 0
@@ -7357,10 +6931,6 @@ Prefab:
       propertyPath: m_Name
       value: kid bed (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a797ec175aa810941848af83cb96a241, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
   m_IsPrefabAsset: 0
@@ -7890,7 +7460,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 286a8138c1c853143b0f35e5ea0afbf8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.221
+      value: 5.35
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 286a8138c1c853143b0f35e5ea0afbf8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8935,10 +8505,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 2300006, guid: 679c4ca88dfbb494cad214e4f65ad51f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3e43545cb90675144bbd19f1de0a8866, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679c4ca88dfbb494cad214e4f65ad51f, type: 3}
   m_IsPrefabAsset: 0
@@ -9468,18 +9034,6 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 13
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
-    - target: {fileID: 2300000, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300004, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
   m_IsPrefabAsset: 0
@@ -9725,10 +9279,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a797ec175aa810941848af83cb96a241, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3cbb7e62225c7545a70fecae464ca46, type: 3}
   m_IsPrefabAsset: 0
@@ -11720,18 +11270,6 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 13
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
-    - target: {fileID: 2300000, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
-    - target: {fileID: 2300004, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
   m_IsPrefabAsset: 0
@@ -11885,10 +11423,6 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -0.1005
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 77632f1e38f48744682726406c3eb4c9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
   m_IsPrefabAsset: 0
@@ -12004,10 +11538,6 @@ Prefab:
       propertyPath: m_Name
       value: floor thing (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 3268cf6d1b88b3f49b5c2faff15d9a61, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3268cf6d1b88b3f49b5c2faff15d9a61, type: 3}
   m_IsPrefabAsset: 0
@@ -12748,10 +12278,6 @@ Prefab:
       propertyPath: m_Name
       value: bansiter (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: a1dfb890fa1c477468bc4f64add77810, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: eda7dd0b3a11b454ebdcdb21a1d3d8ea, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1dfb890fa1c477468bc4f64add77810, type: 3}
   m_IsPrefabAsset: 0
@@ -13387,26 +12913,6 @@ Prefab:
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3e43545cb90675144bbd19f1de0a8866, type: 2}
-    - target: {fileID: 2300006, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5e4d29d6f9942aa43a02a1298473a23d, type: 2}
-    - target: {fileID: 2300000, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 914b877a9e08cd445a66b8857619d8e6, type: 2}
-    - target: {fileID: 2300008, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 914b877a9e08cd445a66b8857619d8e6, type: 2}
-    - target: {fileID: 2300004, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5e4d29d6f9942aa43a02a1298473a23d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 849e31d2cc866a64b9237f246441dad2, type: 3}
   m_IsPrefabAsset: 0
@@ -13556,46 +13062,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 2300020, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300022, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ea7ab5bc57ad8a34db9ab3176a1888df, type: 2}
-    - target: {fileID: 2300008, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ea7ab5bc57ad8a34db9ab3176a1888df, type: 2}
-    - target: {fileID: 2300006, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ea7ab5bc57ad8a34db9ab3176a1888df, type: 2}
-    - target: {fileID: 2300014, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300026, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300002, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300016, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300018, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
-    - target: {fileID: 2300004, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7a58277225ee28144af8ff9d531e73fe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
   m_IsPrefabAsset: 0
@@ -14554,9 +14020,6 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400504, guid: 63b4ecca0206198418c4d0bd87b165eb,
-=======
-  m_CorrespondingSourceObject: {fileID: 400332, guid: 63b4ecca0206198418c4d0bd87b165eb,
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 917891791}
@@ -15444,7 +14907,6 @@ Transform:
   m_Father: {fileID: 707113564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &973928704
 Prefab:
   m_ObjectHideFlags: 0
@@ -15496,10 +14958,6 @@ Prefab:
       propertyPath: m_Name
       value: floor thing (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 3268cf6d1b88b3f49b5c2faff15d9a61, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3268cf6d1b88b3f49b5c2faff15d9a61, type: 3}
   m_IsPrefabAsset: 0
@@ -15520,9 +14978,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &978017716
-=======
---- !u!4 &422530686 stripped
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400104, guid: 958d36178d9013b4687ad92b629296ec,
@@ -17283,11 +16738,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-<<<<<<< HEAD
   - {fileID: 2100002, guid: 958d36178d9013b4687ad92b629296ec, type: 3}
-=======
-  - {fileID: 2100000, guid: 4949d60194cf0ad49bf0d700f91d7adf, type: 2}
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17307,7 +16758,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
 --- !u!33 &1124972534
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17477,10 +16927,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3e43545cb90675144bbd19f1de0a8866, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
   m_IsPrefabAsset: 0
@@ -17597,31 +17043,6 @@ Prefab:
   m_SourcePrefab: {fileID: 100100000, guid: 958d36178d9013b4687ad92b629296ec, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &1135101816 stripped
-=======
---- !u!33 &619793480
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3300018, guid: 63b4ecca0206198418c4d0bd87b165eb,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 619793477}
-  m_Mesh: {fileID: 4300020, guid: 63b4ecca0206198418c4d0bd87b165eb, type: 3}
---- !u!64 &619793481
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 619793477}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300020, guid: 63b4ecca0206198418c4d0bd87b165eb, type: 3}
---- !u!1 &622842181
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100376, guid: 52119900be1d7a9448ce4fbf63c3fb1e,
     type: 3}
@@ -18777,7 +18198,6 @@ Transform:
   m_Father: {fileID: 338818827}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &1216481155
 Prefab:
   m_ObjectHideFlags: 0
@@ -18837,17 +18257,10 @@ Prefab:
       propertyPath: m_Name
       value: bansiter (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: a1dfb890fa1c477468bc4f64add77810, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: eda7dd0b3a11b454ebdcdb21a1d3d8ea, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1dfb890fa1c477468bc4f64add77810, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &1217921585
-=======
---- !u!1 &780565387
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100150, guid: 958d36178d9013b4687ad92b629296ec,
@@ -22456,89 +21869,7 @@ Transform:
   m_Father: {fileID: 180487546}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1457799472
-=======
---- !u!4 &1131254432
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 958d36178d9013b4687ad92b629296ec,
-    type: 3}
-  m_PrefabInternal: {fileID: 1133404065}
-  m_GameObject: {fileID: 1750203424}
-  m_LocalRotation: {x: 0.09536715, y: 0.91952807, z: 0.2406375, w: -0.29574808}
-  m_LocalPosition: {x: 0.351118, y: 0.49053246, z: 3.2839859}
-  m_LocalScale: {x: 7.7452717, y: 7.7452517, z: 7.7452717}
-  m_Children:
-  - {fileID: 1991172301}
-  m_Father: {fileID: 1148850618}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -29.931002, y: 215.07399, z: 2.186}
---- !u!1001 &1133064121
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1533090414}
-    m_Modifications:
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -29.969921
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 36.12627
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 81.814896
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01582182a5cd96f4eb303869c4d4ebb9, type: 3}
-  m_IsPrefabAsset: 0
---- !u!4 &1133064122 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400118, guid: 01582182a5cd96f4eb303869c4d4ebb9,
-    type: 3}
-  m_PrefabInternal: {fileID: 1133064121}
---- !u!1 &1133201680
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100080, guid: 958d36178d9013b4687ad92b629296ec,
@@ -22628,40 +21959,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -0.1005
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 2300000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 77632f1e38f48744682726406c3eb4c9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &1462112796
-=======
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 958d36178d9013b4687ad92b629296ec, type: 3}
-  m_IsPrefabAsset: 0
---- !u!1 &1135101816 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100376, guid: 52119900be1d7a9448ce4fbf63c3fb1e,
-    type: 3}
-  m_PrefabInternal: {fileID: 2024634429}
---- !u!64 &1135101818
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1135101816}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
---- !u!1 &1139993411
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100574, guid: 63b4ecca0206198418c4d0bd87b165eb,
@@ -22801,14 +22102,6 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0.0539
       objectReference: {fileID: 0}
-    - target: {fileID: 2300006, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
-    - target: {fileID: 2300008, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7317cf9e72481df42b6cb236e639bfc9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f75e99288061774bb3516227436f8ee, type: 3}
   m_IsPrefabAsset: 0
@@ -24124,7 +23417,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-<<<<<<< HEAD
 --- !u!1001 &1587229003
 Prefab:
   m_ObjectHideFlags: 0
@@ -24180,17 +23472,10 @@ Prefab:
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 77632f1e38f48744682726406c3eb4c9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &1587229004 stripped
-=======
---- !u!1 &1304112577
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100028, guid: 73ff3e187a1279a4abdd10dbf206f501,
     type: 3}
@@ -26819,7 +26104,6 @@ Prefab:
     - target: {fileID: 400000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
-<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -26857,46 +26141,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 2300020, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300018, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300004, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300002, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300016, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300014, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300026, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7c78b74ab90711340857f4fcfcb74f79, type: 2}
-    - target: {fileID: 2300006, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300008, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300022, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
   m_IsPrefabAsset: 0
@@ -26922,44 +26166,34 @@ Prefab:
     - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
-=======
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_LocalScale.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_LocalScale.z
-<<<<<<< HEAD
       value: 6.7125497
-=======
-      value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 105a8eabf61aa5644bca60a15c759108, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.7125497
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.7125497
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
       propertyPath: m_TagString
@@ -27454,7 +26688,6 @@ Transform:
   m_Father: {fileID: 1524790566}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &1809667993
 Prefab:
   m_ObjectHideFlags: 0
@@ -27506,53 +26739,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 2300020, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1dbfdbbf6dedb8741b675f72d637d1ca, type: 2}
-    - target: {fileID: 2300016, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300026, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300018, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300014, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300002, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300004, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c50aa52e0c9cbdb44a969ad2d2ab2d43, type: 2}
-    - target: {fileID: 2300008, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300006, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300022, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &1811045518
-=======
---- !u!1 &1686724564
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100108, guid: 958d36178d9013b4687ad92b629296ec,
@@ -28113,7 +27303,6 @@ Transform:
   m_Father: {fileID: 404083976}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &1842779265
 Prefab:
   m_ObjectHideFlags: 0
@@ -28173,36 +27362,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -0.1005
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 77632f1e38f48744682726406c3eb4c9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ff3e187a1279a4abdd10dbf206f501, type: 3}
   m_IsPrefabAsset: 0
 --- !u!1 &1844790239
-=======
---- !u!1 &1737670092 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100512, guid: 52119900be1d7a9448ce4fbf63c3fb1e,
-    type: 3}
-  m_PrefabInternal: {fileID: 2024634429}
---- !u!64 &1737670096
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1737670092}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300004, guid: 52119900be1d7a9448ce4fbf63c3fb1e, type: 3}
---- !u!1 &1739038495
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100122, guid: 958d36178d9013b4687ad92b629296ec,
@@ -28995,11 +28158,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e3c3124f314677498112c07b296b720, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
-      value: 4.149
-=======
-      value: 37.68487
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
+      value: 4.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e3c3124f314677498112c07b296b720, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31908,53 +31067,6 @@ Prefab:
       propertyPath: m_Name
       value: bedroom draws (5)
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 2300020, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 914b877a9e08cd445a66b8857619d8e6, type: 2}
-    - target: {fileID: 2300022, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300008, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300006, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5efb706a69442f1488c5f9e7f000ccf5, type: 2}
-    - target: {fileID: 2300016, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e750554d1f297446b1ec7aea3307efe, type: 2}
-    - target: {fileID: 2300002, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e750554d1f297446b1ec7aea3307efe, type: 2}
-    - target: {fileID: 2300014, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e750554d1f297446b1ec7aea3307efe, type: 2}
-    - target: {fileID: 2300026, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e750554d1f297446b1ec7aea3307efe, type: 2}
-    - target: {fileID: 2300004, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e750554d1f297446b1ec7aea3307efe, type: 2}
-    - target: {fileID: 2300018, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e750554d1f297446b1ec7aea3307efe, type: 2}
-=======
-    - target: {fileID: 100044, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41709bb6a6686f46a8168dd786dc6b2, type: 3}
   m_IsPrefabAsset: 0
@@ -32448,17 +31560,6 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -0.145
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 2300000, guid: 86f46c73fcd0a564eaebfab46bbf8371, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0a67e649eedbf52468255a6c9e36c9a7, type: 2}
-=======
-    - target: {fileID: 100080, guid: 86f46c73fcd0a564eaebfab46bbf8371, type: 3}
-      propertyPath: m_TagString
-      value: Wall
-      objectReference: {fileID: 0}
->>>>>>> parent of 6c25c64... Merge branch 'master' of https://github.com/ultamatum/Abertay-Spook-Jam
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86f46c73fcd0a564eaebfab46bbf8371, type: 3}
   m_IsPrefabAsset: 0
