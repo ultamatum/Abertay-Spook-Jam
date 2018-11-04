@@ -35,7 +35,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4707797609941248}
   - component: {fileID: 20883719647068102}
-  - component: {fileID: 81832303812886838}
   - component: {fileID: 114345811864077464}
   m_Layer: 0
   m_Name: Main Camera
@@ -56,7 +55,7 @@ GameObject:
   - component: {fileID: 23750267668245650}
   - component: {fileID: 136144026969059630}
   - component: {fileID: 54578363658673912}
-  - component: {fileID: 114604326849407812}
+  - component: {fileID: 114931902309104300}
   m_Layer: 10
   m_Name: Capsule
   m_TagString: Untagged
@@ -70,9 +69,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1823376349584792}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.012820513, y: 0.7333334, z: -0.012820513}
-  m_LocalScale: {x: 1.2820514, y: 1.0416667, z: 1.2820514}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.012820513, y: 0.7333333, z: -0.012820513}
+  m_LocalScale: {x: 1.2820508, y: 1.0416667, z: 1.2820508}
   m_Children: []
   m_Father: {fileID: 4764989832022708}
   m_RootOrder: 0
@@ -97,8 +96,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1765986875778308}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.7819013, z: -0, w: 0.6234022}
+  m_LocalPosition: {x: -0.25, y: 0.64, z: 1.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4764989832022708}
@@ -202,13 +201,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!81 &81832303812886838
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1823376349584792}
-  m_Enabled: 1
 --- !u!114 &114345811864077464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -222,7 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivity: 5
   smoothing: 2
---- !u!114 &114604326849407812
+--- !u!114 &114931902309104300
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,12 +225,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e515c63f78c18764cb833466f12b75d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  jumpForce: 7
-  groundLayers:
-    serializedVersion: 2
-    m_Bits: 1
-  col: {fileID: 0}
+  inputDeadzone: 0.1
+  forwardVel: 3
+  horizontalVel: 3
 --- !u!136 &136144026969059630
 CapsuleCollider:
   m_ObjectHideFlags: 1

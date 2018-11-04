@@ -12,7 +12,7 @@ public class VRTouchPadMovement : MonoBehaviour
     public Hand hand;
     public SteamVR_Action_Boolean touch;
     public SteamVR_Action_Vector2 move;
-    public Collider colliderObj;
+    public CapsuleCollider colliderObj;
     public float movementSpeed = 5;
     
     Vector3 prevPosition;
@@ -36,7 +36,7 @@ public class VRTouchPadMovement : MonoBehaviour
             Vector3 newPos = (((transform.right * move.GetAxis(hand.handType).x + transform.forward * move.GetAxis(hand.handType).y) * movementSpeed) * Time.deltaTime);
             foreach (GameObject wall in walls)
             {
-                if (wall.GetComponent<MeshCollider>().bounds.Intersects(colliderObj.bounds))
+                if (wall.GetComponent<Collider>().bounds.Intersects(colliderObj.bounds))
                 {
                     rig.position = prevPosition;
                     Debug.Log("COLLIDED: " + colliderObj + " Hand: Right");

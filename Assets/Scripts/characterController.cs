@@ -1,41 +1,55 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class characterController : MonoBehaviour {
+public class CharacterController : MonoBehaviour
+{
+    public float inputDeadzone = 0.1f;
+    public float forwardVel = 12;
+    public float horizontalVel = 12;
 
-    public float speed = 10.0f;
-    public float jumpForce = 7.0f;
+    Quaternion targetRotation;
+    Rigidbody rigidbody;
+    float forwardInput, horizontalInput;
 
-    private Rigidbody rb;
-
-    public LayerMask groundLayers;
-
-    public CapsuleCollider col;
-
-    void Start() {
-        Cursor.lockState = CursorLockMode.Locked;
-        rb = GetComponent<Rigidbody>();
-        col = GetComponent<CapsuleCollider>();
-    }
-    
-    void Update() {
-        float translation = Input.GetAxis("Vertical") * speed;
-        float strafe = Input.GetAxis("Horizontal") * speed;
-        translation *= Time.deltaTime;
-        strafe *= Time.deltaTime;
-
-        transform.Translate(strafe, 0, translation);
-
-        if (Input.GetKeyDown("escape"))
-            Cursor.lockState = CursorLockMode.None;
-        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
-    }
-
-    private bool IsGrounded()
+    void Start()
     {
-        return Physics.CheckCapsule(col.bounds.center, new Vector3(col.bounds.center.x, col.bounds.min.y, col.bounds.center.z), col.radius * 0.9f, groundLayers);
+        targetRotation = transform.rotation;
+        if (GetComponent<Rigidbody>())
+            rigidbody = GetComponent<Rigidbody>();
+        else
+            Debug.LogError("Character doesn't have a rigidbody");
+
+        forwardInput = horizontalInput = 0;
+    }
+
+    void GetInput()
+    {
+        forwardInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
+    }
+
+    void Update()
+    {
+        GetInput();
+    }
+
+    void FixedUpdate()
+    {
+        Run();
+    }
+
+    void Run()
+    {
+        if (Mathf.Abs(forwardInput) > inputDeadzone || Mathf.Abs(horizontalInput) > inputDeadzone)
+        {
+            rigidbody.velocity = (transform.forward * forwardInput * forwardVel) + (transform.right * horizontalInput * horizontalVel);
+        }
+        else
+        {
+            rigidbody.velocity = Vector3.zero;
+        }
+
+
     }
 }
