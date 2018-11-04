@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 958d36178d9013b4687ad92b629296ec
+guid: 6a2d155f594bfea4e8e3a641323a2cac
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -79,7 +79,7 @@ ModelImporter:
     400070: transform5
     400072: transform6
     400074: transform7
-    2100000: lambert1
+    2100000: lambert2
     2300000: pCube2
     3300000: pCube2
     4300000: pCube2
@@ -155,7 +155,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
